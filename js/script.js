@@ -9,12 +9,15 @@ for (let i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
         console.log("FizzBuzz");
         bgClass = "fizzbuzz"
+        // per i numeri divisibili per 3
     } else if (i % 3 === 0) {
         console.log("Fizz");
         bgClass = "fizz";
+        // per i numeri divisibili per 5
     } else if (i % 5 === 0) {
         console.log("Buzz");
         bgClass = "buzz"
+        // per tutti gli altri numeri
     } else {
         console.log(i);
         bgClass = "number";
@@ -23,7 +26,6 @@ for (let i = 1; i <= 100; i++) {
     // stampo i risultati nel DOM
     const boxElem = `<div class="box ${bgClass}">${i}</div>`; // string
     rowElem.innerHTML += boxElem;
-
 }
 
 
