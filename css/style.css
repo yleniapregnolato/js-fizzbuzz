@@ -4,3 +4,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #083B4C;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 4rem;
+
+}
+
+/* common */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* row */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.number {
+    background-color: #1389B2;
+}
+
+.fizz {
+    background-color: #0BD6A1;
+}
+
+.buzz {
+    background-color: #FFD166;
+}
+
+.fizzbuzz {
+    background-color: #F0466F;
+}
