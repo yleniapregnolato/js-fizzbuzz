@@ -28,8 +28,9 @@ for (let i = 1; i <= 100; i++) {
         text = i;
     }
 
-    // stampo i risultati nel DOM
+    // OUTPUT
     const boxElem = `<div class="box ${bgClass}">${text}</div>`; // string
+     // stampo i risultati nel DOM
     rowElem.innerHTML += boxElem;
 }
 
