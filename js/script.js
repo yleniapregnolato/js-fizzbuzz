@@ -1,3 +1,5 @@
+// "use strict";
+
 // prelevo l'elemento row
 const rowElem = document.querySelector(".row"); // object | null
 console.log(rowElem);
@@ -33,5 +35,4 @@ for (let i = 1; i <= 100; i++) {
      // stampo i risultati nel DOM
     rowElem.innerHTML += boxElem;
 }
-
 
